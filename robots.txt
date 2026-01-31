@@ -1,0 +1,13 @@
+# No crawling allowed
+User-agent: *
+Disallow: /
+
+# Block image indexing specifically
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Twitterbot
+Disallow: /
